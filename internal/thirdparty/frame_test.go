@@ -11,7 +11,7 @@ import (
 	_ "github.com/gorilla/websocket"
 	_ "github.com/lesismal/nbio/nbhttp/websocket"
 
-	_ "github.com/coder/websocket"
+	_ "nhooyr.io/websocket"
 )
 
 func basicMask(b []byte, maskKey [4]byte, pos int) int {
